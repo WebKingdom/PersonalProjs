@@ -4,103 +4,106 @@ import java.util.ArrayList;
 import java.util.Random;
 
 public class Sudoku {
-	
-	/**
-	 * Board of the Sudoku
-	 */
-	private char board[][];
-	
-	/**
-	 * A random generator
-	 */
-	private Random r;
-	
-	
-	/**
-	 * Constructs an empty 9x9 Sudoku
-	 */
-	public Sudoku() {
-		r = new Random(13);
-		board = new char[9][9];
-	}
-	
-	/**
-	 * Constructs a Sudoku with the given board layout/numbers
-	 * @param b board for the Sudoku
-	 */
-	public Sudoku(char[][] b) {
-		r = new Random(13);
-		board = new char[9][9];
-		for (int i = 0; i < 9; i++) {
-			for (int j = 0; j < 9; j++) {
-				board[i][j] = b[i][j];
-			}
-		}
-	}
-	
-	/**
-	 * Creates a new Sudoku randomly TODO
-	 */
-	public void createSudoku() {
-		for (int i = 0; i < 9; i++) {
-			for (int j = 0; j < 9; j++) {
-				board[i][j] = randChar();
-			}
-		}
-	}
-	
-	/**
-	 * Returns a random character either 1-9 or '.'
-	 * @return a valid random character
-	 */
-	private char randChar() {
-		if (r.nextInt(3) == 0) {
-			return '.';
-		}
-		char ret = (char) (r.nextInt(9) + 49);
-		return ret;
-	}
-	
-	/**
-	 * Displays the Sudoku
-	 */
-	public void display() {
-		for (int i = 0; i < board.length; i++) {
-			if (i % 3 == 0) {
-				System.out.println("-------------------------");
-			}
-			for (int j = 0; j < board[i].length; j++) {
-				if (j % 3 == 0) {
-					System.out.print("| ");
-				}
-				System.out.print(board[i][j]);
-				if (j != 8) {
-					System.out.print(" ");
-				}
-				if (j == 8) {
-					System.out.print(" |");
-				}
-			}
-			System.out.println();
-		}
-		System.out.println("-------------------------");
-	}
-	
-	/**
-	 * Solves the Sudoku and identifies if it could not be solved
-	 */
-	public void solveSudoku() {
+
+    /**
+     * Board of the Sudoku
+     */
+    private char board[][];
+
+    /**
+     * A random generator
+     */
+    private Random r;
+
+
+    /**
+     * Constructs an empty 9x9 Sudoku
+     */
+    public Sudoku() {
+        r = new Random(13);
+        board = new char[9][9];
+    }
+
+    /**
+     * Constructs a Sudoku with the given board layout/numbers
+     *
+     * @param b board for the Sudoku
+     */
+    public Sudoku(char[][] b) {
+        r = new Random(13);
+        board = new char[9][9];
+        for (int i = 0; i < 9; i++) {
+            for (int j = 0; j < 9; j++) {
+                board[i][j] = b[i][j];
+            }
+        }
+    }
+
+    /**
+     * Creates a new Sudoku randomly TODO
+     */
+    public void createSudoku() {
+        for (int i = 0; i < 9; i++) {
+            for (int j = 0; j < 9; j++) {
+                board[i][j] = randChar();
+            }
+        }
+    }
+
+    /**
+     * Returns a random character either 1-9 or '.'
+     *
+     * @return a valid random character
+     */
+    private char randChar() {
+        if (r.nextInt(3) == 0) {
+            return '.';
+        }
+        char ret = (char) (r.nextInt(9) + 49);
+        return ret;
+    }
+
+    /**
+     * Displays the Sudoku
+     */
+    public void display() {
+        for (int i = 0; i < board.length; i++) {
+            if (i % 3 == 0) {
+                System.out.println("-------------------------");
+            }
+            for (int j = 0; j < board[i].length; j++) {
+                if (j % 3 == 0) {
+                    System.out.print("| ");
+                }
+                System.out.print(board[i][j]);
+                if (j != 8) {
+                    System.out.print(" ");
+                }
+                if (j == 8) {
+                    System.out.print(" |");
+                }
+            }
+            System.out.println();
+        }
+        System.out.println("-------------------------");
+    }
+
+    /**
+     * Solves the Sudoku and identifies if it could not be solved
+     */
+    public void solveSudoku() {
         if (!solve()) {
             System.out.println("Could not solve.");
         }
     }
-    
-	/**
-	 * Logic for solving the Sudoku
-	 * @return true if solved, false otherwise
-	 */
+
+    /**
+     * Logic for solving the Sudoku
+     *
+     * @return true if solved, false otherwise
+     */
     private boolean solve() {
-        for (int i = 0; i < board.length; i ++) {
+        for (int i = 0; i < board.length; i++) {
             for (int j = 0; j < board[0].length; j++) {
                 if (board[i][j] == '.') {
                     //char numbers 1-9
@@ -110,8 +113,7 @@ public class Sudoku {
                             //start backtracking recursively
                             if (solve()) {
                                 return true;
-                            }
-                            else {
+                            } else {
                                 board[i][j] = '.';
                             }
                         }
@@ -122,9 +124,10 @@ public class Sudoku {
         }
         return true;
     }
-    
+
     /**
      * Determines if a number is valid in the Sudoku at the specified location
+     *
      * @param r
      * @param c
      * @param item
@@ -157,16 +160,17 @@ public class Sudoku {
         }
         return true;
     }
-    
+
     /**
      * Determines if the Sudoku is valid (solvable or validly solved)
+     *
      * @param board to check
      * @return true if valid/correct, false otherwise
      */
     public boolean isValidSudoku() {
         ArrayList<Character> al = new ArrayList<>();
         ArrayList<Character> alCol = new ArrayList<>();
-        
+
         //check all rows and columns
         for (int i = 0; i < board.length; i++) {
             for (int j = 0; j < board[i].length; j++) {
@@ -204,9 +208,10 @@ public class Sudoku {
         }
         return true;
     }
-    
+
     /**
      * Checks if Sudoku is valid in the 3x3 box
+     *
      * @param r
      * @param c
      * @param arr
@@ -231,7 +236,4 @@ public class Sudoku {
         }
         return true;
     }
-    
-    
 }
-
