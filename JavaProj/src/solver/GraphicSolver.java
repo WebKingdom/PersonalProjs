@@ -25,5 +25,11 @@ public class GraphicSolver {
         s.display();
         System.out.println("Valid Sudoku: " + s.isValidSudoku());
 
+        s = new Sudoku();
+        s.createRandomSudoku(80);
+        s.display();
+        s.solveSudoku();
+        s.display();
+        System.out.println("Valid Sudoku: " + s.isValidSudoku());
     }
 }

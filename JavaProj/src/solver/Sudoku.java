@@ -1,6 +1,8 @@
 package solver;
 
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 import java.util.Random;
 
 public class Sudoku {
@@ -22,6 +24,11 @@ public class Sudoku {
     public Sudoku() {
         r = new Random(13);
         board = new char[9][9];
+        for (int i = 0; i < 9; i++) {
+            for (int j = 0; j < 9; j++) {
+                board[i][j] = '.';
+            }
+        }
     }
 
     /**
@@ -40,14 +47,63 @@ public class Sudoku {
     }
 
     /**
-     * Creates a new Sudoku randomly TODO
+     * Creates a random solvable sudoku board
+     *
+     * @param percentRand percentage of board that should be empty (higher percent -> harder)
      */
-    public void createSudoku() {
+    public void createRandomSudoku(int percentRand) {
+        ArrayList<Character> numList = new ArrayList<>();
+        for (int i = 1; i <= 9; i++) {
+            numList.add(Character.forDigit(i, 10));
+        }
+        Collections.shuffle(numList);
+        createSudoku(numList);
+
+        if (!isValidSudoku()) {
+            System.out.println("ERROR: Generated sudoku is not solvable.");
+        }
+
+        // take out a random percent of numbers
+        int numToHide = (int) ((percentRand / 100.0) * 81.0);
+        int numHidden = 0;
+        while (numHidden < numToHide) {
+            int curRow = r.nextInt(9);
+            int curCol = r.nextInt(9);
+            board[curRow][curCol] = '.';
+            numHidden++;
+        }
+    }
+
+    /**
+     * Helper for creating a random sudoku board.
+     *
+     * @param al list of numbers (as chars) for randomly generating sudoku
+     * @return true if successfully created sudoku, false otherwise
+     */
+    public boolean createSudoku(ArrayList<Character> al) {
         for (int i = 0; i < 9; i++) {
             for (int j = 0; j < 9; j++) {
-                board[i][j] = randChar();
+                if (board[i][j] == '.') {
+                    // loop through random number list to find solvable sudoku
+                    for (int k = 0; k < 9; k++) {
+                        char numToAdd = al.get(k);
+                        if (validNum(i, j, numToAdd)) {
+                            board[i][j] = numToAdd;
+                            Collections.shuffle(al);
+
+                            // backtrack recursively
+                            if (createSudoku(al)) {
+                                return true;
+                            } else {
+                                board[i][j] = '.';
+                            }
+                        }
+                    }
+                    return false;
+                }
             }
         }
+        return true;
     }
 
     /**
@@ -61,6 +117,15 @@ public class Sudoku {
         }
         char ret = (char) (r.nextInt(9) + 49);
         return ret;
+    }
+
+    /**
+     * Returns a random number as a character from 1-9
+     *
+     * @return a valid random number as char
+     */
+    private char randNum() {
+        return (char) (r.nextInt(9) + 49);
     }
 
     /**
@@ -164,7 +229,6 @@ public class Sudoku {
     /**
      * Determines if the Sudoku is valid (solvable or validly solved)
      *
-     * @param board to check
      * @return true if valid/correct, false otherwise
      */
     public boolean isValidSudoku() {

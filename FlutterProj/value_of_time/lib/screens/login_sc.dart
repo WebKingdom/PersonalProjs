@@ -10,7 +10,7 @@ class LoginScreen extends StatefulWidget {
 }
 
 class _LoginScreenState extends State<LoginScreen> {
-  /// Remember me checkbox state
+  /// Remember my checkbox state
   bool _rememberMe = false;
 
   final _emailTxtCtrl = TextEditingController();

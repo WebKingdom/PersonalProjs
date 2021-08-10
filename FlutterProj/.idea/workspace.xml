@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8db413ad-4200-4c15-bef2-3f0264199c9a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/value_of_time/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/value_of_time/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/value_of_time/.metadata" beforeDir="false" afterPath="$PROJECT_DIR$/value_of_time/.metadata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/value_of_time/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/value_of_time/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/value_of_time/android/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/value_of_time/android/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/value_of_time/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/value_of_time/android/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/value_of_time/android/app/src/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/value_of_time/android/app/src/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/value_of_time/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/value_of_time/android/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/value_of_time/android/app/src/main/kotlin/com/somasz/valueoftime/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/value_of_time/android/app/src/main/kotlin/com/somasz/valueoftime/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/value_of_time/android/app/src/main/res/drawable/launch_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/value_of_time/android/app/src/main/res/drawable/launch_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/value_of_time/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/value_of_time/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/value_of_time/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/value_of_time/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/value_of_time/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/value_of_time/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/value_of_time/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/value_of_time/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/value_of_time/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/value_of_time/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/value_of_time/android/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/value_of_time/android/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/value_of_time/android/app/src/profile/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/value_of_time/android/app/src/profile/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/value_of_time/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/value_of_time/android/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/value_of_time/android/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/value_of_time/android/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/value_of_time/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/value_of_time/android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/value_of_time/android/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/value_of_time/android/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/value_of_time/assets/fonts/OpenSans.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/value_of_time/assets/fonts/OpenSans.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/value_of_time/assets/logos/facebook_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/value_of_time/assets/logos/facebook_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/value_of_time/assets/logos/fb_logo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/value_of_time/assets/logos/fb_logo.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/value_of_time/assets/logos/google_g_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/value_of_time/assets/logos/google_g_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/value_of_time/assets/logos/google_logo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/value_of_time/assets/logos/google_logo.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/value_of_time/ios/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/value_of_time/ios/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/value_of_time/ios/Flutter/AppFrameworkInfo.plist" beforeDir="false" afterPath="$PROJECT_DIR$/value_of_time/ios/Flutter/AppFrameworkInfo.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/value_of_time/ios/Flutter/Debug.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/value_of_time/ios/Flutter/Debug.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/value_of_time/ios/Flutter/Release.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/value_of_time/ios/Flutter/Release.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/value_of_time/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/value_of_time/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/value_of_time/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata" beforeDir="false" afterPath="$PROJECT_DIR$/value_of_time/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/value_of_time/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" afterPath="$PROJECT_DIR$/value_of_time/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/value_of_time/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings" beforeDir="false" afterPath="$PROJECT_DIR$/value_of_time/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/value_of_time/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/value_of_time/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/value_of_time/ios/Runner.xcworkspace/contents.xcworkspacedata" beforeDir="false" afterPath="$PROJECT_DIR$/value_of_time/ios/Runner.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/value_of_time/ios/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" afterPath="$PROJECT_DIR$/value_of_time/ios/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/value_of_time/ios/Runner.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings" beforeDir="false" afterPath="$PROJECT_DIR$/value_of_time/ios/Runner.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/value_of_time/ios/Runner/AppDelegate.swift" beforeDir="false" afterPath="$PROJECT_DIR$/value_of_time/ios/Runner/AppDelegate.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/value_of_time/ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" afterPath="$PROJECT_DIR$/value_of_time/ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/value_of_time/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png" beforeDir="false" afterPath="$PROJECT_DIR$/value_of_time/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/value_of_time/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png" beforeDir="false" afterPath="$PROJECT_DIR$/value_of_time/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/value_of_time/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/value_of_time/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/value_of_time/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/value_of_time/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/value_of_time/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png" beforeDir="false" afterPath="$PROJECT_DIR$/value_of_time/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/value_of_time/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/value_of_time/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/value_of_time/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/value_of_time/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/value_of_time/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png" beforeDir="false" afterPath="$PROJECT_DIR$/value_of_time/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/value_of_time/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/value_of_time/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/value_of_time/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/value_of_time/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/value_of_time/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/value_of_time/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/value_of_time/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/value_of_time/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/value_of_time/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png" beforeDir="false" afterPath="$PROJECT_DIR$/value_of_time/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/value_of_time/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/value_of_time/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/value_of_time/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/value_of_time/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/value_of_time/ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json" beforeDir="false" afterPath="$PROJECT_DIR$/value_of_time/ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/value_of_time/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage.png" beforeDir="false" afterPath="$PROJECT_DIR$/value_of_time/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/value_of_time/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/value_of_time/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/value_of_time/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/value_of_time/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/value_of_time/ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/value_of_time/ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/value_of_time/ios/Runner/Base.lproj/LaunchScreen.storyboard" beforeDir="false" afterPath="$PROJECT_DIR$/value_of_time/ios/Runner/Base.lproj/LaunchScreen.storyboard" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/value_of_time/ios/Runner/Base.lproj/Main.storyboard" beforeDir="false" afterPath="$PROJECT_DIR$/value_of_time/ios/Runner/Base.lproj/Main.storyboard" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/value_of_time/ios/Runner/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/value_of_time/ios/Runner/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/value_of_time/ios/Runner/Runner-Bridging-Header.h" beforeDir="false" afterPath="$PROJECT_DIR$/value_of_time/ios/Runner/Runner-Bridging-Header.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/value_of_time/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/value_of_time/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/value_of_time/lib/screens/login_sc.dart" beforeDir="false" afterPath="$PROJECT_DIR$/value_of_time/lib/screens/login_sc.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/value_of_time/lib/screens/vot_home.dart" beforeDir="false" afterPath="$PROJECT_DIR$/value_of_time/lib/screens/vot_home.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/value_of_time/lib/utilities/constants.dart" beforeDir="false" afterPath="$PROJECT_DIR$/value_of_time/lib/utilities/constants.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/value_of_time/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/value_of_time/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/value_of_time/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/value_of_time/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/value_of_time/test/widget_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/value_of_time/test/widget_test.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaProj/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaProj/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaProj/.idea/description.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaProj/.idea/description.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaProj/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaProj/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaProj/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaProj/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaProj/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaProj/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaProj/.idea/project-template.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaProj/.idea/project-template.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaProj/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaProj/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaProj/JavaProj.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaProj/JavaProj.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaProj/src/solver/GraphicSolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaProj/src/solver/GraphicSolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaProj/src/solver/Sudoku.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaProj/src/solver/Sudoku.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1wXwOVPLvgjF60AvDpm4C6kRfMJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8db413ad-4200-4c15-bef2-3f0264199c9a" name="Default Changelist" comment="" />
+      <created>1628618209548</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1628618209548</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="184" y="91" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1628618290048">
+      <screen x="0" y="25" width="1440" height="815" />
+    </state>
+    <state x="184" y="91" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1440.815@0.25.1440.815" timestamp="1628618290048" />
+  </component>
+</project>
